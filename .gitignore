@@ -1,0 +1,12 @@
+### idea
+.idea/
+*.iml
+### dist
+src/main/resources/static/dist/
+### maven
+target/
+### node
+etc/
+node/
+node_modules/
+npm-debug.log
