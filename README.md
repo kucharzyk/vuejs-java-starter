@@ -38,6 +38,7 @@ Hot module replacement will be available from both servers
 
 ## Directory structure
 
+```
 .
 ├ build                   # webpack build configuration
 ├ .mvn                    # maven wrapper directory
@@ -68,3 +69,4 @@ Hot module replacement will be available from both servers
 ├ npm                      # local npm linux wrapper
 ├ npm.cmd                  # local npm windows wrapper
 └ README.md                # this file
+```
