@@ -14,10 +14,11 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class MainPageController {
 
-    @Autowired EnvironmentProvider environmentProvider;
+    @Autowired
+    EnvironmentProvider environmentProvider;
 
     @RequestMapping("/")
-    public ModelAndView showMainPage() {
+    public ModelAndView mainPage() {
         if (environmentProvider.isProduction()) {
             return new ModelAndView("forward://dist/index.html");
         } else {

@@ -17,7 +17,9 @@
     "test": "karma start build/karma.conf.js --single-run"
   },
   "dependencies": {
-    "vue": "^1.0.0"
+    "es6-promise": "^3.0.2",
+    "vue": "^1.0.0",
+    "vue-router": "^0.7.7"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

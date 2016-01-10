@@ -19,4 +19,9 @@ public class SampleRestController {
     public List<String> test() {
         return Lists.newArrayList("Vue.js", "is", "great");
     }
+
+    @RequestMapping("/fail")
+    public List<String> fail() {
+        throw new RuntimeException("method failed");
+    }
 }

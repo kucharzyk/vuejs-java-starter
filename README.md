@@ -1,6 +1,14 @@
 # vuejs-java-starter
 
-> Vue.js Java Starter
+> Vue.js spring boot starter project
+
+## CHANGELOG:
+
+## 0.0.2 (2016-01-10)
+
+* Added vue-router with sample routes
+* Added json error handler
+* Handle html5 history routes from java (via 404 page) 
 
 ## Run in production mode
 
