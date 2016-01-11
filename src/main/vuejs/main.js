@@ -1,9 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import VueResource from 'vue-resource';
 import { configRouter } from './route-config';
 require('es6-promise').polyfill();
 
 import App from './app';
+
+// install vue-resource
+Vue.use(VueResource);
 
 // install router
 Vue.use(VueRouter);

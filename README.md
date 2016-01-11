@@ -4,11 +4,11 @@
 
 ## CHANGELOG:
 
-## 0.0.2 (2016-01-10)
+## 0.0.3 (2016-01-11)
 
-* Added vue-router with sample routes
-* Added json error handler
-* Handle html5 history routes from java (via 404 page) 
+* Added basic vue-resource example
+* Configured proxy from webpack-dev-server to backend
+* Added .editorconfig
 
 ## Run in production mode
 

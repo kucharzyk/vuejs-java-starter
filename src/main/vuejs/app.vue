@@ -2,13 +2,16 @@
   .view {
     transition: all .5s ease;
   }
+
   .test-enter, .test-leave {
     opacity: 0;
     transform: translate3d(10px, 0, 0);
   }
+
   .v-link-active {
     color: red;
   }
+
   [v-cloak] {
     display: none;
   }
@@ -37,17 +40,17 @@
 </template>
 
 <script>
-import Hello from './components/hello.vue';
+  import Hello from './components/hello.vue';
 
-export default {
-  data () {
-    return {
-      authenticating: false
-    };
-  },
-  components: {
-    'hello': Hello
-  }
-};
+  export default {
+    data () {
+      return {
+        authenticating: false
+      };
+    },
+    components: {
+      'hello': Hello
+    }
+  };
 </script>
 
