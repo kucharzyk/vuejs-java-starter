@@ -4,11 +4,12 @@
 
 ## CHANGELOG:
 
-## 0.0.3 (2016-01-11)
+## 0.0.4 (2016-01-11)
 
-* Added basic vue-resource example
-* Configured proxy from webpack-dev-server to backend
-* Added .editorconfig
+* fixed 404 status code in routing
+* fixed hot reload issues with images and fonts
+* Added jquery and semantic-ui
+* Added file loader for fonts
 
 ## Run in production mode
 

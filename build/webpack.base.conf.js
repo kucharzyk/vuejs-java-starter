@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../src/main/resources/static/dist/'),
-    publicPath: '/dist/',
+    publicPath: 'http://localhost:3000/dist/',
     filename: '[name].js'
   },
   resolve: {
@@ -30,6 +30,18 @@ module.exports = {
       {
         test: /\.json$/,
         loader: 'json'
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        loader: 'url',
+        query: {
+          limit: 10000,
+          name: '[name].[ext]?[hash]'
+        }
+      },
+      {
+        test: /\.(woff|eot|ttf|woff2)$/i,
+        loader: 'file-loader?[name].[ext]?[hash]'
       }
     ]
   },

@@ -28,14 +28,17 @@
     <img class="logo" src="assets/logo.png">
     <hello></hello>
   </div>
+
   <div>
-    <a v-link="{ path: '/' }">home</a>
-    <a v-link="{ path: '/about' }">about</a>
-    <a v-link="{ path: '/user/1234/profile/what' }">user profile</a>
-    <a v-link="{ path: '/user/1234/posts' }">user posts</a>
-    <a v-link="{ path: '/user/1234/settings' }">user settings</a>
-    <a v-link="{ path: '/404' }">not found</a>
-    <a v-link="{ path: '/forbidden' }">forbidden</a>
+    <div class="ui menu">
+      <a class="item" v-link="{ path: '/' }">home</a>
+      <a class="item" v-link="{ path: '/about' }">about</a>
+      <a class="item" v-link="{ path: '/user/1234/profile/what' }">user profile</a>
+      <a class="item" v-link="{ path: '/user/1234/posts' }">user posts</a>
+      <a class="item" v-link="{ path: '/user/1234/settings' }">user settings</a>
+      <a class="item" v-link="{ path: '/404' }">not found</a>
+      <a class="item" v-link="{ path: '/forbidden' }">forbidden</a>
+    </div>
 
     <router-view class="view" transition="test" transition-mode="out-in" keep-alive></router-view>
   </div>
@@ -53,7 +56,7 @@
       };
     },
     components: {
-      'hello': Hello
+      Hello
     }
   };
 </script>

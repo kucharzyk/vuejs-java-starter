@@ -14,22 +14,6 @@ var SOURCE_MAP = true;
 
 config.devtool = SOURCE_MAP ? 'source-map' : false;
 
-// Save fonts and images
-config.module.loaders.push(
-  {
-    test: /\.(png|jpg|gif|svg)$/,
-    loader: 'url',
-    query: {
-      limit: 10000,
-      name: '[name].[ext]?[hash]'
-    }
-  },
-  {
-    test: /\.(woff|eot|ttf|woff2)$/i,
-    loader: 'file-loader?[name].[ext]?[hash]'
-  }
-);
-
 // generate loader string to be used with extract text plugin
 function generateExtractLoaders (loaders) {
   return loaders.map(function (loader) {
