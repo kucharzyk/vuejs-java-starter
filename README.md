@@ -2,7 +2,18 @@
 
 > Vue.js spring boot starter project
 
-## CHANGELOG:
+## Features:
+* Spring Boot
+* Vue.js
+* Hot module replacement (from webpack dev server and from java)
+* vue-router for routing (working well with spring router)
+* vue-resources for data fetching
+* development and production profiles
+* fully automated maven workflow
+* semantic-ui integration
+* and will be more...
+
+## Changelog
 
 ## 0.0.4 (2016-01-11)
 
@@ -10,6 +21,8 @@
 * fixed hot reload issues with images and fonts
 * Added jquery and semantic-ui
 * Added file loader for fonts
+
+[show full changelog](CHANGELOG.md):
 
 ## Run in production mode
 
