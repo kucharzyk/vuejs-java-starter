@@ -22,7 +22,7 @@
 * Added jquery and semantic-ui
 * Added file loader for fonts
 
-[show full changelog](CHANGELOG.md):
+[show full changelog](CHANGELOG.md)
 
 ## Run in production mode
 
