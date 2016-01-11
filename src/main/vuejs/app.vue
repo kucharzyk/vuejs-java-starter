@@ -1,4 +1,6 @@
 <style>
+  @import "../../../node_modules/semantic-ui-css/semantic.css";
+
   .view {
     transition: all .5s ease;
   }
@@ -40,6 +42,8 @@
 </template>
 
 <script>
+  require('semantic-ui-css/semantic.min.js');
+
   import Hello from './components/hello.vue';
 
   export default {
