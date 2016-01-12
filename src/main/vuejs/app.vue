@@ -1,3 +1,6 @@
+<style lang="less">
+  @import "assets/less/style.less";
+</style>
 <template>
   <div id="app">
     <img class="logo" src="assets/images/logo.png">
