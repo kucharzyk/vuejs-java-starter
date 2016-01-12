@@ -11,7 +11,7 @@
 * development and production profiles
 * fully automated maven workflow
 * semantic-ui integration
-* less support
+* less-css support
 * and will be more...
 
 ## Changelog
