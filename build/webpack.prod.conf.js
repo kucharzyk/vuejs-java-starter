@@ -9,7 +9,7 @@ config.output.filename = '[name].[chunkhash].js';
 config.output.chunkFilename = '[id].[chunkhash].js';
 
 // fix output path for production
-config.output.publicPath: '/dist/';
+config.output.publicPath = '/dist/';
 
 // whether to generate source map for production files.
 // disabling this can speed up the build.
