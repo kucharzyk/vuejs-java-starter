@@ -1,31 +1,6 @@
-<style>
-  @import "../../../node_modules/semantic-ui-css/semantic.css";
-
-  .view {
-    transition: all .5s ease;
-  }
-
-  .test-enter, .test-leave {
-    opacity: 0;
-    transform: translate3d(10px, 0, 0);
-  }
-
-  .v-link-active {
-    color: red;
-  }
-
-  [v-cloak] {
-    display: none;
-  }
-
-  body {
-    font-family: Helvetica, sans-serif;
-  }
-</style>
-
 <template>
   <div id="app">
-    <img class="logo" src="assets/logo.png">
+    <img class="logo" src="assets/images/logo.png">
     <hello></hello>
   </div>
 
@@ -45,7 +20,6 @@
 </template>
 
 <script>
-  require('semantic-ui-css/semantic.min.js');
 
   import Hello from './components/hello.vue';
 

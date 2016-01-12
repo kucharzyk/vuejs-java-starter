@@ -1,3 +1,9 @@
+## 0.0.5 (2016-01-12)
+
+* refactor webpack configuration
+* refactor styles configuration
+* add less-css support
+
 ## 0.0.4 (2016-01-11)
 
 * fixed 404 status code in routing

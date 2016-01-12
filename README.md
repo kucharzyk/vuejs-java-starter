@@ -11,16 +11,16 @@
 * development and production profiles
 * fully automated maven workflow
 * semantic-ui integration
+* less support
 * and will be more...
 
 ## Changelog
 
-## 0.0.4 (2016-01-11)
+## 0.0.5 (2016-01-12)
 
-* fixed 404 status code in routing
-* fixed hot reload issues with images and fonts
-* Added jquery and semantic-ui
-* Added file loader for fonts
+* refactor webpack configuration
+* refactor styles configuration
+* add less-css support
 
 [show full changelog](CHANGELOG.md)
 

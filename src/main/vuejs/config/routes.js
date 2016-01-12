@@ -3,23 +3,23 @@ export function configRouter (router) {
   // normal routes
   router.map({
     '/home': {
-      component: require('./components/home.vue')
+      component: require('./../components/home.vue')
     },
     // nested example
     '/user/:userId': {
-      component: require('./components/user/index.vue'),
+      component: require('./../components/user/index.vue'),
       subRoutes: {
         // matches "/user/:userId/profile/:something"
         'profile/:something': {
-          component: require('./components/user/profile.vue')
+          component: require('./../components/user/profile.vue')
         },
         // matches "/user/:userId/posts"
         'posts': {
-          component: require('./components/user/posts.vue')
+          component: require('./../components/user/posts.vue')
         },
         // matches "/user/:userId/settings"
         'settings': {
-          component: require('./components/user/settings.vue')
+          component: require('./../components/user/settings.vue')
         }
       }
     },
@@ -28,11 +28,11 @@ export function configRouter (router) {
       // the component can also be a plain string component id,
       // but a component with that id must be available in the
       // App component's scope.
-      component: require('./components/about.vue')
+      component: require('./../components/about.vue')
     },
     // not found handler
     '*': {
-      component: require('./components/not-found.vue')
+      component: require('./../components/not-found.vue')
     }
   });
 

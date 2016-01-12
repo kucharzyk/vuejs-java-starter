@@ -1,10 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
-require('es6-promise').polyfill();
 
-import { configRouter } from './route-config';
-import App from './app';
+require('es6-promise').polyfill();
+import { configRouter } from './config/routes';
+
+require('./config/theme');
 
 // install vue-resource
 Vue.use(VueResource);
@@ -22,5 +23,5 @@ const router = new VueRouter({
 configRouter(router);
 
 // boostrap the app
-router.start(App, 'app');
+router.start(require('./app'), 'app');
 
