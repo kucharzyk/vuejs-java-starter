@@ -25,10 +25,10 @@ export function configRouter (router) {
     },
     // basic example
     '/about': {
-      // the component can also be a plain string component id,
-      // but a component with that id must be available in the
-      // App component's scope.
       component: require('./../components/about.vue')
+    },
+    '/hello': {
+      component: require('./../components/hello.vue')
     },
     // not found handler
     '*': {

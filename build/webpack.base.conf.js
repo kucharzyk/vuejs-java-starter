@@ -47,6 +47,9 @@ module.exports = {
   vue: {
     loaders: {
       js: 'babel!eslint'
+    },
+    autoprefixer: {
+      browsers: ['last 2 versions']
     }
   },
   eslint: {

@@ -1,6 +1,11 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+
+    <p>Counter: {{count}}</p>
+    <button v-on:click="inc">+1</button>
+    <button v-on:click="dec">-1</button>
+    <button v-on:click="ave(666)">666</button>
   </div>
 </template>
 
@@ -12,8 +17,20 @@
         // with hot-reload because the reloaded component
         // preserves its current state and we are modifying
         // its initial state.
-        msg: 'Hello Vue.js!!!'
+        msg: 'Hello Vue.js!!!',
+        count: 0
       };
+    },
+    methods: {
+      inc: function () {
+        this.count++;
+      },
+      dec: function () {
+        this.count--;
+      },
+      ave: function (number) {
+        this.count = number;
+      }
     }
   };
 </script>

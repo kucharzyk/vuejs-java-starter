@@ -19,11 +19,13 @@
   "dependencies": {
     "es6-promise": "^3.0.2",
     "semantic-ui-css": "^2.1.8",
-    "vue": "^1.0.0",
+    "semantic-ui-less": "^2.1.8",
+    "vue": "^1.0.14",
     "vue-resource": "^0.6.0",
-    "vue-router": "^0.7.7"
+    "vue-router": "^0.7.8"
   },
   "devDependencies": {
+    "autoprefixer": "^6.2.3",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-plugin-transform-runtime": "^6.0.0",
@@ -56,7 +58,7 @@
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^8.0.0",
     "vue-style-loader": "^1.0.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.0"
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
   }
 }

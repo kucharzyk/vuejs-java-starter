@@ -1,5 +1,12 @@
+## 0.0.6 (2016-01-12)
+
+* styled application with semantic-ui
+* updated npm packages
+* configured autoprefixer
+
 ## 0.0.5 (2016-01-12)
 
+* styled application with semantic-ui
 * refactor webpack configuration
 * refactor styles configuration
 * add less-css support

@@ -16,11 +16,25 @@
 
 ## Changelog
 
+## 0.0.6 (2016-01-12)
+
+* styled application with semantic-ui
+* updated npm packages
+* configured autoprefixer
+
 ## 0.0.5 (2016-01-12)
 
+* styled application with semantic-ui
 * refactor webpack configuration
 * refactor styles configuration
 * add less-css support
+
+## 0.0.4 (2016-01-11)
+
+* fixed 404 status code in routing
+* fixed hot reload issues with images and fonts
+* Added jquery and semantic-ui
+* Added file loader for fonts
 
 [show full changelog](CHANGELOG.md)
 

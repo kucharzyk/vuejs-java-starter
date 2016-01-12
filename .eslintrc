@@ -23,6 +23,12 @@
     "experimentalObjectRestSpread": true
   },
 
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "window.jQuery": true
+  },
+
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-spacing": 0,
