@@ -17,6 +17,10 @@
 
 ## Changelog
 
+## 0.0.8 (2016-01-13)
+
+* added active class to menu links
+
 ## 0.0.7 (2016-01-13)
 
 * switched from semantic-ui to bootstrap 4
@@ -30,12 +34,6 @@
 * updated npm packages
 * configured autoprefixer
 
-## 0.0.5 (2016-01-12)
-
-* styled application with semantic-ui
-* refactor webpack configuration
-* refactor styles configuration
-* add less-css support
 
 [show full changelog](CHANGELOG.md)
 

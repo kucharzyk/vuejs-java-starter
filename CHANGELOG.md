@@ -1,3 +1,7 @@
+## 0.0.8 (2016-01-13)
+
+* added active class to menu links
+
 ## 0.0.7 (2016-01-13)
 
 * switched from semantic-ui to bootstrap 4

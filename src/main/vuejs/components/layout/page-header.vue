@@ -20,28 +20,28 @@
               <span class="pull-xs-none"></span>
             </a>
             <ul class="nav navbar-nav">
-              <li class="nav-item active">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/home' }">HOME</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/hello' }">HELLO</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/about' }">ABOUT</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/404' }">NOT FOUND</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/forbidden' }">FORBIDDEN</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/user/1234/profile/what' }">user profile</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/user/1234/posts' }">user posts</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/user/1234/settings' }">user settings</a>
               </li>
             </ul>
