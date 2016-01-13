@@ -20,6 +20,7 @@
 ## 0.0.8 (2016-01-13)
 
 * added active class to menu links
+* added dropdown to menu
 
 ## 0.0.7 (2016-01-13)
 

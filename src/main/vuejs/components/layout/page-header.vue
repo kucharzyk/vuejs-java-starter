@@ -35,14 +35,14 @@
               <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/forbidden' }">FORBIDDEN</a>
               </li>
-              <li class="nav-item v-link-active">
-                <a class="nav-link" v-link="{ path: '/user/1234/profile/what' }">user profile</a>
-              </li>
-              <li class="nav-item v-link-active">
-                <a class="nav-link" v-link="{ path: '/user/1234/posts' }">user posts</a>
-              </li>
-              <li class="nav-item v-link-active">
-                <a class="nav-link" v-link="{ path: '/user/1234/settings' }">user settings</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link" data-target="#" data-toggle="dropdown">USER</a>
+                <div class="dropdown-menu">
+                  <h6 class="dropdown-header">User actions</h6>
+                  <a class="dropdown-item" v-link="{ path: '/user/1234/profile/what' }">user profile</a>
+                  <a class="dropdown-item" v-link="{ path: '/user/1234/posts' }">user posts</a>
+                  <a class="dropdown-item" v-link="{ path: '/user/1234/settings' }">user settings</a>
+                </div>
               </li>
             </ul>
           </div>
