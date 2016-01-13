@@ -11,6 +11,7 @@
 * development and production profiles
 * fully automated maven workflow
 * bootstrap 4 integration
+* font-awesome
 * less-css support
 * sass support
 * and will be more...
@@ -22,6 +23,7 @@
 * added active class to menu links
 * added dropdown to menu
 * added two-way binding example
+* added font-awesome and some icons
 
 ## 0.0.7 (2016-01-13)
 

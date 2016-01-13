@@ -3,6 +3,7 @@
 * added active class to menu links
 * added dropdown to menu
 * added two-way binding example
+* added font-awesome and some icons
 
 ## 0.0.7 (2016-01-13)
 

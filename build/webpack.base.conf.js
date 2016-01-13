@@ -31,7 +31,7 @@ module.exports = {
         loader: 'json'
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg)/,
         loader: 'url',
         query: {
           limit: 10000,
@@ -39,7 +39,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(woff|eot|ttf|woff2)$/i,
+        test: /\.(woff|eot|ttf|woff(2)?|otf)/i,
         loader: 'file-loader?[name].[ext]?[hash]'
       }
     ]
