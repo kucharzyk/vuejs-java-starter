@@ -10,11 +10,19 @@
 * vue-resources for data fetching
 * development and production profiles
 * fully automated maven workflow
-* semantic-ui integration
+* bootstrap 4 integration
 * less-css support
+* sass support
 * and will be more...
 
 ## Changelog
+
+## 0.0.7 (2016-01-13)
+
+* switched from semantic-ui to bootstrap 4
+* semantic-ui was too big
+* switched from less to sass
+* style app with bootstrap
 
 ## 0.0.6 (2016-01-12)
 
@@ -28,13 +36,6 @@
 * refactor webpack configuration
 * refactor styles configuration
 * add less-css support
-
-## 0.0.4 (2016-01-11)
-
-* fixed 404 status code in routing
-* fixed hot reload issues with images and fonts
-* Added jquery and semantic-ui
-* Added file loader for fonts
 
 [show full changelog](CHANGELOG.md)
 

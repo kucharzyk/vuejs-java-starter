@@ -3,9 +3,10 @@
     <h1>{{ msg }}</h1>
 
     <p>Counter: {{count}}</p>
-    <button v-on:click="inc">+1</button>
-    <button v-on:click="dec">-1</button>
-    <button v-on:click="ave(666)">666</button>
+    <progress class="progress progress-striped progress-success progress-animated" value="{{count}}" max="100">{{count}}%</progress>
+    <button class="btn btn-primary" v-on:click="inc">+1</button>
+    <button class="btn btn-primary" v-on:click="dec">-1</button>
+    <button class="btn btn-primary" v-on:click="setProgress(42)">42</button>
   </div>
 </template>
 
@@ -28,7 +29,7 @@
       dec: function () {
         this.count--;
       },
-      ave: function (number) {
+      setProgress: function (number) {
         this.count = number;
       }
     }

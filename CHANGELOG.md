@@ -1,3 +1,10 @@
+## 0.0.7 (2016-01-13)
+
+* switched from semantic-ui to bootstrap 4
+* semantic-ui was too big
+* switched from less to sass
+* style app with bootstrap
+
 ## 0.0.6 (2016-01-12)
 
 * styled application with semantic-ui

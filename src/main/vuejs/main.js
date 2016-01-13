@@ -5,8 +5,8 @@ import VueResource from 'vue-resource';
 require('es6-promise').polyfill();
 import { configRouter } from './config/routes';
 
-// Semantic UI
-require('semantic-ui-css/semantic.min.js');
+// Bootstrap 4
+require('bootstrap');
 
 // install vue-resource
 Vue.use(VueResource);

@@ -17,9 +17,9 @@
     "test": "karma start build/karma.conf.js --single-run"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
     "es6-promise": "^3.0.2",
-    "semantic-ui-css": "^2.1.8",
-    "semantic-ui-less": "^2.1.8",
+    "tether": "^1.1.1",
     "vue": "^1.0.14",
     "vue-resource": "^0.6.0",
     "vue-router": "^0.7.8"
@@ -50,8 +50,10 @@
     "karma-webpack": "^1.7.0",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
+    "node-sass": "^3.4.2",
     "phantomjs": "^1.9.19",
     "rimraf": "^2.5.0",
+    "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.0",
