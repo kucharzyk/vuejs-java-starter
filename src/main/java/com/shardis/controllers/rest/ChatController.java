@@ -28,11 +28,7 @@ public class ChatController {
     ChatMessage jsonCreate(@RequestBody ChatMessage chatMessage) throws IOException {
         synchronized (this.sseEmitters) {
             for (SseEmitter sseEmitter : this.sseEmitters) {
-                // Servlet containers don't always detect ghost connection, so we must catch exceptions ...
-                try {
                     sseEmitter.send(chatMessage, MediaType.APPLICATION_JSON);
-                } catch (Exception e) {
-                }
             }
         }
         return chatMessage;
