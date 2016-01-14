@@ -30,7 +30,7 @@ public class ErrorHandlerController {
     @ExceptionHandler(ClientAbortException.class)
     public void processClientAbortException(ClientAbortException ex) {
         log.debug(ex.getMessage(),ex);
-        log.info("client disconected");
+        log.debug("client disconected");
     }
 
     @ExceptionHandler(Exception.class)
