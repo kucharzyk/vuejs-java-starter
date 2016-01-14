@@ -1,11 +1,14 @@
 <template>
   <div>
     <h2>Chat</h2>
-    <ul>
-      <li v-for="m in messages">
-        {{ m.author }} {{ m.message }}
-      </li>
-    </ul>
+
+    <table style="width: 100%">
+      <tr v-for="m in messages">
+        <td class="label label-pill label-default" width="20%">{{ m.author }}</td>
+        <td class="label label-success" width="80%">{{ m.message }}</td>
+      </tr>
+    </table>
+
     <form>
       <div class="form-group">
         <label for="author-name" class="form-control-label">Author:</label>
@@ -16,7 +19,7 @@
         <textarea rows="5" class="form-control" id="message-text" v-model="message"></textarea>
       </div>
       <div class="form-group">
-        <button class="btn btn-primary" v-on:click.prevent="postMessage">Post</button>
+        <button class="btn btn-primary"  :disabled="!message || !author" v-on:click.prevent="postMessage">Post</button>
       </div>
     </form>
   </div>
