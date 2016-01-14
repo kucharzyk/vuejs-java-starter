@@ -22,6 +22,9 @@
             <ul class="nav navbar-nav">
               <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/home' }">HOME</a>
+              </li>              
+              <li class="nav-item v-link-active">
+                <a class="nav-link" v-link="{ path: '/chat' }">CHAT</a>
               </li>
               <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/hello' }">HELLO</a>

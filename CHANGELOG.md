@@ -1,3 +1,7 @@
+## 0.0.9 (2016-01-14)
+
+* added realtime chat example
+
 ## 0.0.8 (2016-01-13)
 
 * added active class to menu links

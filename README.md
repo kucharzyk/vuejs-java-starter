@@ -18,6 +18,10 @@
 
 ## Changelog
 
+## 0.0.9 (2016-01-14)
+
+* added realtime chat example
+
 ## 0.0.8 (2016-01-13)
 
 * added active class to menu links
@@ -31,12 +35,6 @@
 * semantic-ui was too big
 * switched from less to sass
 * style app with bootstrap
-
-## 0.0.6 (2016-01-12)
-
-* styled application with semantic-ui
-* updated npm packages
-* configured autoprefixer
 
 
 [show full changelog](CHANGELOG.md)

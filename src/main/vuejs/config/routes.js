@@ -27,6 +27,9 @@ export function configRouter (router) {
     '/about': {
       component: require('./../components/about.vue')
     },
+    '/chat': {
+      component: require('./../components/chat.vue')
+    },
     '/hello': {
       component: require('./../components/hello.vue')
     },
