@@ -1,6 +1,12 @@
+## 0.1.0 (2016-01-14)
+
+* added Vuex (It's like flux)
+* refactor counter example to Vuex 
+* some other refactorings
+
 ## 0.0.9 (2016-01-14)
 
-* added realtime chat example
+* added realtime chat example (SSE)
 
 ## 0.0.8 (2016-01-13)
 

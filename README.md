@@ -18,9 +18,15 @@
 
 ## Changelog
 
+## 0.1.0 (2016-01-14)
+
+* added Vuex (It's like flux)
+* refactor counter example to Vuex 
+* some other refactorings
+
 ## 0.0.9 (2016-01-14)
 
-* added realtime chat example
+* added realtime chat example (SSE)
 
 ## 0.0.8 (2016-01-13)
 
@@ -28,14 +34,6 @@
 * added dropdown to menu
 * added two-way binding example
 * added font-awesome and some icons
-
-## 0.0.7 (2016-01-13)
-
-* switched from semantic-ui to bootstrap 4
-* semantic-ui was too big
-* switched from less to sass
-* style app with bootstrap
-
 
 [show full changelog](CHANGELOG.md)
 

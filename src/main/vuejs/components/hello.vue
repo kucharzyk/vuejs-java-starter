@@ -13,6 +13,7 @@
 </template>
 
 <script>
+  import store from '../stores/store';
   export default {
     data () {
       return {
@@ -20,25 +21,23 @@
         // with hot-reload because the reloaded component
         // preserves its current state and we are modifying
         // its initial state.
-        msg: 'Hello Vue.js!!!',
-        count: 0
+        msg: 'Hello Vue.js!!!'
       };
+    },
+    computed: {
+      count () {
+        return store.state.count;
+      }
     },
     methods: {
       inc: function () {
-        this.count++;
-        if (this.count > 100) {
-          this.count = this.count - 100;
-        }
+        store.dispatch('INCREMENT');
       },
       dec: function () {
-        this.count--;
-        if (this.count < 0) {
-          this.count = this.count + 100;
-        }
+        store.dispatch('DECREMENT');
       },
       setProgress: function (number) {
-        this.count = number;
+        store.dispatch('SET_PROGRESS', number);
       }
     }
   };
