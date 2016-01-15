@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Tomasz Kucharzyk
@@ -26,9 +27,10 @@ public class ChatController {
     @RequestMapping(path = "/post", method = RequestMethod.POST, produces = "application/json")
     @ResponseBody
     ChatMessage jsonCreate(@RequestBody ChatMessage chatMessage) throws IOException {
-        synchronized (this.sseEmitters) {
-            for (SseEmitter sseEmitter : this.sseEmitters) {
-                    sseEmitter.send(chatMessage, MediaType.APPLICATION_JSON);
+        log.info("Message received -> resending to " + sseEmitters.size() + " client(s)");
+        synchronized (sseEmitters) {
+            for (SseEmitter sseEmitter : sseEmitters) {
+                sseEmitter.send(chatMessage, MediaType.APPLICATION_JSON);
             }
         }
         return chatMessage;
@@ -36,12 +38,14 @@ public class ChatController {
 
     @RequestMapping("/sse/updates")
     SseEmitter subscribeUpdates() {
-        SseEmitter sseEmitter = new SseEmitter();
-        synchronized (this.sseEmitters) {
+        SseEmitter sseEmitter = new SseEmitter(TimeUnit.MINUTES.toMillis(1));
+        synchronized (sseEmitters) {
             this.sseEmitters.add(sseEmitter);
+            log.info("Client connected");
             sseEmitter.onCompletion(() -> {
-                synchronized (this.sseEmitters) {
-                    this.sseEmitters.remove(sseEmitter);
+                synchronized (sseEmitters) {
+                    sseEmitters.remove(sseEmitter);
+                    log.info("Client disconnected");
                 }
             });
         }

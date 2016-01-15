@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-header">
     <!-- Fixed navbar -->
     <div class="pos-f-t">
       <div class="collapse" id="navbar-header">

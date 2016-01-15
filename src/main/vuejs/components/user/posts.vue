@@ -1,10 +1,12 @@
 <template>
-  <h2>user posts</h2>
-  <ul>
-    <li v-for="post in posts">
-      {{ post.title }}
-    </li>
-  </ul>
+  <div class="user-posts">
+    <h2>user posts</h2>
+    <ul>
+      <li v-for="post in posts">
+        {{ post.title }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>

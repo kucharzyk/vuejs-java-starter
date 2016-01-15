@@ -1,7 +1,7 @@
 <style lang="sass" src="./assets/scss/main.scss"></style>
 
 <template>
-  <div id="app">
+  <div class="app">
 
     <page-header></page-header>
 

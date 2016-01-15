@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2>Chat</h2>
+  <div class="chat">
+    <h2>Realtime chat</h2>
 
     <table style="width: 100%">
       <tr v-for="m in messages">
@@ -16,10 +16,10 @@
       </div>
       <div class="form-group">
         <label for="message-text" class="form-control-label">Message:</label>
-        <textarea rows="5" class="form-control" id="message-text" v-model="message"></textarea>
+        <input type="text" class="form-control" id="message-text" v-model="message"/>
       </div>
       <div class="form-group">
-        <button class="btn btn-primary"  :disabled="!message || !author" v-on:click.prevent="postMessage">Post</button>
+        <button class="btn btn-primary"  :disabled="!message || !author" @click.prevent="postMessage">Post</button>
       </div>
     </form>
   </div>
@@ -53,7 +53,7 @@
           author: self.author,
           message: self.message
         }).then(function () {
-          self.message = '';
+          self.message = 'Send next message';
         });
       }
     }

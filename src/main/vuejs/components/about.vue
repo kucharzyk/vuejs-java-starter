@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <div class="about">
     <h1>About:</h1>
     <blockquote class="blockquote">
       <p>{{message}}</p>
       <footer><cite>{{author}}</cite></footer>
     </blockquote>
     <div>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">change message</button>
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">change message
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+           aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
