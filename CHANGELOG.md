@@ -1,4 +1,4 @@
-## 0.1.0 (2016-01-14)
+## 0.1.0 (2016-01-15)
 
 * added Vuex (It's like flux)
 * refactor counter example to Vuex 
