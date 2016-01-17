@@ -2,15 +2,15 @@
   <div class="question">
     <h2>{{q.name}} ({{q.type}})</h2>
 
-    <input name="questionFieldName" type="text" v-if="q.type==='TEXT'">
+    <input v-model="q.answer" name="questionFieldName" type="text" v-if="q.type==='TEXT'">
 
-    <select name="questionFieldName" v-if="q.type==='COMBO'">
+    <select v-model="q.answer" name="questionFieldName" v-if="q.type==='COMBO'">
       <option v-for="o in q.options" :value="o.value">{{o.name}}</option>
     </select>
 
     <template v-if="q.type==='RADIO'">
       <template v-for="o in q.options">
-        <input type="radio" :name="questionFieldName" :value="o.value">{{o.name}}</input>
+        <input v-model="q.answer" type="radio" :name="questionFieldName" :value="o.value">{{o.name}}</input>
         <br>
       </template>
     </template>

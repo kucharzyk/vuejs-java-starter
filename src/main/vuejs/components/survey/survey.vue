@@ -25,6 +25,10 @@
       <button class="btn ptn-primary" @click="prevPage" :disabled="firstPage">prev page</button>
       <button class="btn ptn-primary" @click="nextPage" :disabled="lastPage">next page</button>
     </div>
+
+    <br><br>
+    <pre>{{pagesAsJson}}</pre>
+
   </div>
 </template>
 <script>
@@ -100,6 +104,9 @@
             questions: []
           };
         }
+      },
+      pagesAsJson: function () {
+        return JSON.stringify(this.pages, null, 2);
       }
     },
 

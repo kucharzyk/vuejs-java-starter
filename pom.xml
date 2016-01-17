@@ -5,7 +5,7 @@
 
 	<groupId>com.shardis</groupId>
 	<artifactId>vuejs-java-starter</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>vuejs-java-starter</name>

@@ -18,6 +18,10 @@
 
 ## Changelog
 
+## 0.1.1 (2016-01-17)
+
+* added Simple survey as Vue.js example
+
 ## 0.1.0 (2016-01-15)
 
 * added Vuex (It's like flux)
@@ -27,13 +31,6 @@
 ## 0.0.9 (2016-01-14)
 
 * added realtime chat example (SSE)
-
-## 0.0.8 (2016-01-13)
-
-* added active class to menu links
-* added dropdown to menu
-* added two-way binding example
-* added font-awesome and some icons
 
 [show full changelog](CHANGELOG.md)
 

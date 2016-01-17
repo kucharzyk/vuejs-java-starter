@@ -1,3 +1,7 @@
+## 0.1.1 (2016-01-17)
+
+* added Simple survey as Vue.js example
+
 ## 0.1.0 (2016-01-15)
 
 * added Vuex (It's like flux)

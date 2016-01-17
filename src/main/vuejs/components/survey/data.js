@@ -5,7 +5,8 @@ var survey = {
     {
       id: 1,
       name: 'What\'s answer #1?',
-      type: 'TEXT'
+      type: 'TEXT',
+      answer: null
     },
     {
       id: 2,
@@ -24,11 +25,13 @@ var survey = {
           name: 'Option C',
           value: 'C'
         }
-      ]
+      ],
+      answer: null
     },
     {
       id: 3,
-      type: 'BREAK_PAGE'
+      type: 'BREAK_PAGE',
+      answer: null
     },
     {
       id: 4,
@@ -47,12 +50,14 @@ var survey = {
           name: 'Option C',
           value: 'C'
         }
-      ]
+      ],
+      answer: null
     },
     {
       id: 5,
       name: 'What\'s answer #5?',
-      type: 'NONE'
+      type: 'NONE',
+      answer: null
     },
     {
       id: 6,
@@ -71,11 +76,13 @@ var survey = {
           name: 'Option C',
           value: 'C'
         }
-      ]
+      ],
+      answer: null
     },
     {
       id: 7,
-      type: 'BREAK_PAGE'
+      type: 'BREAK_PAGE',
+      answer: null
     },
     {
       id: 8,
@@ -94,7 +101,8 @@ var survey = {
           name: 'Option C',
           value: 'C'
         }
-      ]
+      ],
+      answer: null
     }
   ]
 };
