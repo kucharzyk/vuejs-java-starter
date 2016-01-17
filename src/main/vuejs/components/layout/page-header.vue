@@ -30,6 +30,9 @@
                 <a class="nav-link" v-link="{ path: '/hello' }">HELLO</a>
               </li>
               <li class="nav-item v-link-active">
+                <a class="nav-link" v-link="{ path: '/survey' }">SURVEY</a>
+              </li>
+              <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/about' }">ABOUT</a>
               </li>
               <li class="nav-item v-link-active">

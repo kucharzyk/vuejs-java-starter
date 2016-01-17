@@ -8,6 +8,9 @@ import { configRouter } from './config/routes';
 // Bootstrap 4
 require('bootstrap');
 
+// debug mode
+Vue.config.debug = false;
+
 // install vue-resource
 Vue.use(VueResource);
 
