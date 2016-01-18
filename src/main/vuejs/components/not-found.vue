@@ -1,3 +1,9 @@
+<style lang="sass" scoped>
+  h1,p {
+    font-weight: bolder;
+    text-align: center;
+  }
+</style>
 <template>
   <div class="not-found jumbotron jumbotron-fluid">
     <div class="container">
