@@ -10,7 +10,8 @@
       </div>
       <nav class="navbar navbar-dark bg-inverse navbar-static-top">
         <div class="container">
-          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse"
+                  data-target="#exCollapsingNavbar2">
             &#9776;
           </button>
           <div class="collapse navbar-toggleable-xs">
@@ -22,7 +23,7 @@
             <ul class="nav navbar-nav">
               <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/home' }">HOME</a>
-              </li>              
+              </li>
               <li class="nav-item v-link-active">
                 <a class="nav-link" v-link="{ path: '/chat' }">CHAT</a>
               </li>
