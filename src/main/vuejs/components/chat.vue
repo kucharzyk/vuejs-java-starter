@@ -1,6 +1,7 @@
 <template>
   <div class="chat">
     <h2>Realtime chat</h2>
+    <h4>(open it in another browser window)</h4>
 
     <table style="width: 100%">
       <tr v-for="m in messages">
