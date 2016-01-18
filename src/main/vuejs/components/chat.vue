@@ -27,7 +27,7 @@
 
 <script>
   export default {
-
+    name: 'chat',
     data () {
       return {
         author: 'John',

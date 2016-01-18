@@ -4,3 +4,8 @@
     <p>{{$route.params.userId}} {{$route.params.something}}</p>
   </div>
 </template>
+<script>
+  export default {
+    name: 'user-profile'
+  };
+</script>

@@ -41,6 +41,7 @@
 </template>
 <script>
   export default {
+    name: 'about',
     data () {
       return {
         author: 'jon.doe@gmail.com',

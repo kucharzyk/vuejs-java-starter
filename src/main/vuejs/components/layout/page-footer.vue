@@ -5,3 +5,8 @@
     </div>
   </footer>
 </template>
+<script>
+  export default {
+    name: 'page-footer'
+  };
+</script>

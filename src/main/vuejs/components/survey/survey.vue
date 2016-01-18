@@ -36,7 +36,7 @@
   import surveyData from './data';
 
   export default{
-
+    name: 'survey',
     data: function () {
       return {
         currentPageNumber: 1,

@@ -21,6 +21,7 @@
   import PageFooter from './components/layout/page-footer.vue';
 
   export default {
+    name: 'app',
     data () {
       return {
         authenticating: false

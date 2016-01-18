@@ -15,6 +15,7 @@
 <script>
   import store from '../stores/store';
   export default {
+    name: 'hello',
     data () {
       return {
         // note: changing this line won't causes changes

@@ -16,6 +16,7 @@
 </template>
 <script>
   export default {
+    name: 'user-settings',
     data () {
       return {
         loaded: false,

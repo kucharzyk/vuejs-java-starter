@@ -11,6 +11,7 @@
 
 <script>
   export default {
+    name: 'user-posts',
     data () {
       return {
         posts: []
