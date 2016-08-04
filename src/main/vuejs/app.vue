@@ -5,7 +5,6 @@
 
     <page-header></page-header>
 
-
     <div class="application main container">
       <router-view class="view" transition="test" transition-mode="out-in" keep-alive></router-view>
     </div>
@@ -35,4 +34,3 @@
     }
   };
 </script>
-
